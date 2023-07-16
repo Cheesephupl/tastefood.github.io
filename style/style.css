@@ -49,10 +49,22 @@ header{
 }
 
 .logo{
-    position: absolute;
-  display: flex;
+}
+.logo img{
+ position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 50px;
+  object-fit: cover;
   justify-content: center;
-  align-items: center;
-  height: 100vh; 
+  /* background-color: #ffffff; */
+  box-shadow: #ffffff 50px;
+  back
+  background-size: 60px;
+    box-shadow: 0 0 10px white;
+  ;
+  z-index: 99;
+
+    
 
 }
