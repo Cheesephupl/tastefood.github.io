@@ -17,8 +17,8 @@ document.getElementById("scrollToTopBtn").addEventListener("click", function () 
     behavior: "smooth"
   });
 });
-
-
+// backhome
+// startslide
 const slides = document.querySelectorAll('.slideshow-container img');
 let currentSlide = 0;
 let slideInterval;
@@ -45,3 +45,5 @@ function changeSlide(n) {
 
 // Start the slideshow
 changeSlide(0);
+
+// endslide
