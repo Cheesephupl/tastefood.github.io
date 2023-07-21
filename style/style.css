@@ -259,3 +259,58 @@ header {
 .text-lienlac{
   color: #fff;
 }
+
+
+.slider{
+  top: 130px;
+  position: relative;
+  width: 95%;
+  height: 600px;
+  overflow: hidden;
+}
+.item{
+  position: absolute;
+  width: 400px;
+  height: 420px;
+  text-align: justify;
+  padding: 20px;
+  transition: 0.5s;
+  left: calc(48% - 110px);
+  top: 0;
+  border-radius: 55px;
+  background: #FBCDCB;
+  filter: blur(25px);
+}
+#next, #prev{
+  position: absolute;
+  top: 500px;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  font-size: xxx-large;
+  font-family: monospace;
+  font-weight: bold;
+  left: 48%;
+  background-color: #7070703a;
+  border-radius: 10px;
+  background-size: 30px;
+}
+#next{
+  left: unset;
+  right: 40%;
+}
+
+.Thongtin-sanpham {
+  padding: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.Thongtin .text-info .text-2 {
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 20px;
+
+}
