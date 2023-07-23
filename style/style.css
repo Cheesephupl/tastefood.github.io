@@ -1,5 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
+
+@font-face {
+  font-family: '1';
+  src: url('path/to/SF-Pro-Rounded-Black.woff2') format('woff2'),
+       url('path/to/SF-Pro-Rounded-Black.woff') format('woff');
+  /* Add other font properties like font-weight and font-style if needed */
+}
+
+@font-face {
+  font-family: '2';
+  src: url('path/to/SF-Pro-Rounded-Ultralight.woff2') format('woff2'),
+       url('path/to/SF-Pro-Rounded-Ultralight.woff') format('woff');
+  /* Add other font properties like font-weight and font-style if needed */
+}
+
+@font-face {
+  font-family: '3';
+  src: url('path/to/SF-Pro-Rounded-Thin.woff2') format('woff2'),
+       url('path/to/SF-Pro-Rounded-Thin.woff') format('woff');
+  /* Add other font properties like font-weight and font-style if needed */
+}
+
+@font-face {
+  font-family: '4';
+  src: url('path/to/SF-Pro-Rounded-Semibold.woff2') format('woff2'),
+       url('path/to/SF-Pro-Rounded-Semibold.woff') format('woff');
+  /* Add other font properties like font-weight and font-style if needed */
+}
+@font-face {
+  font-family: '5';
+  src: url('path/to/SF-Pro-Rounded-Regular.woff2') format('woff2'),
+       url('path/to/SF-Pro-Rounded-Regular.woff') format('woff');
+  /* Add other font properties like font-weight and font-style if needed */
+}
+
+@font-face {
+  font-family: '6';
+  src: url('path/to/SF-Pro-Rounded-Medium.woff2') format('woff2'),
+       url('path/to/SF-Pro-Rounded-Medium.woff') format('woff');
+  /* Add other font properties like font-weight and font-style if needed */
+}
+
+
+
+
+
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,9 +61,8 @@ body {
   margin: 0;
   background-color: var(--light);
   color: var(--color-text);
-  font-family: 'Poppins', sans-serif;
   font-size: 15px;
-
+    font-family: 'SF Pro Rounded Regular', sans-serif;
 }
 
 .container {
@@ -55,27 +102,25 @@ header {
 .navbar ul:hover li {
   color: red;
 }
-
-
-
-.logo img {
+.logo{
   position: absolute;
-  top: 3%;
-  left: 49%;
-  width: 90px;
-  object-fit: cover;
+  left: 45.5%;
   justify-content: center;
-  background-color: #ffffffe0;
-  border-radius: 20px;
-  box-shadow: #ffffff 50px;
-  background-size: 60px;
-  box-shadow: 0 0 10px white;
+  align-items: center;
+  z-index: 5;
+}
+
+.logo img{
+  position: absolute;
+  width: 90px;
+  left:32.5%;
+  top: 15%;
+  justify-content: center;;
   z-index: 999;
   width: 67px;
   height: 123px;
   flex-shrink: 0;
 }
-
 
 #scrollToTopBtn {
   display: none;
@@ -221,6 +266,8 @@ header {
   padding-bottom: 200px;
 }
 
+
+
 .Thongtin .text-info .text-2 {
   text-align: left;
   padding-left: 200px;
@@ -229,15 +276,14 @@ header {
 
 }
 
+
 .fooder {
   background-color: #F8991F;
-  padding: 50px;
+  padding: 20px;
 }
 
 .fooder .lienlac {
-  margin-left: 100px;
-
-
+  margin-left: auto;
 }
 
 .lienlac{
@@ -245,15 +291,18 @@ header {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .text-lienlac{
-  padding: 30px;
+  padding: 10px;
   display: grid;
-  grid-template-columns: 39% 39% 39%;
+  grid-template-columns: 41% 41% 44%;
 }
 
-.img-fooder {}
+.img-fooder {
+  opacity: 50%;
+}
 
 .text-lienlac{
   color: #fff;
@@ -264,8 +313,9 @@ header {
   top: 130px;
   position: relative;
   width: 95%;
-  height: 600px;
+  height: 700px;
   overflow: hidden;
+  margin: auto;
 }
 .item{
   position: absolute;
@@ -274,29 +324,23 @@ header {
   text-align: justify;
   padding: 20px;
   transition: 0.5s;
-  left: calc(48% - 110px);
+  left: 35%;
   top: 0;
-  border-radius: 55px;
-  background: #FBCDCB;
-  filter: blur(25px);
 }
 #next, #prev{
   position: absolute;
   top: 500px;
-  color: #000000;
   background-color: transparent;
   border: none;
   font-size: xxx-large;
-  font-family: monospace;
   font-weight: bold;
-  left: 48%;
-  background-color: #7070703a;
+  left: 38.5%;
   border-radius: 10px;
   background-size: 30px;
 }
 #next{
   left: unset;
-  right: 40%;
+  right: 35%;
 }
 
 .Thongtin-sanpham {
@@ -312,4 +356,8 @@ header {
   padding-right: 200px;
   font-size: 20px;
 
+}
+
+.Thongtin .text-1{
+  font-family: 'SF Pro Rounded Semibold', sans-serif;
 }
