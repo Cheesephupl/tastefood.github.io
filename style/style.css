@@ -365,3 +365,62 @@ header {
 .Thongtin .text-1{
   font-family: 'SF Pro Rounded Semibold', sans-serif;
 }
+
+.Thongtin-tuyendung .ban-tuyendung{
+  padding-top: 100px;
+
+  }
+.Thongtin-tuyendung {
+  margin: 50px;
+  padding-left: 50px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-family: 'SF Pro Rounded Regular', sans-serif;
+}
+
+
+.Thongtin-tuyendung .Rectangle13{
+  position: absolute;
+}
+
+.Thongtin-tuyendung .ban-tuyendung .VTrTuyNDNg{
+  position: absolute;
+  z-index: 10;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.Thongtin-tuyendung .ban-tuyendung .VTr{
+  position: absolute;
+  z-index: 10;
+  padding-top: 30px;
+  padding-left: 700px;
+}
+
+.Thongtin-tuyendung .ban-tuyendung .SLNg{
+  position: absolute;
+  z-index: 10;
+  padding-top: 30px;
+  padding-left: 1000px;
+}
+.Thongtin-tuyendung .ban-tuyendung .AIM{
+  position: absolute;
+  z-index: 10;
+  padding-top: 30px;
+  padding-left: 1250px;
+}
+
+.Thongtin-tuyendung .ban-tuyendung .HNNPHS{
+  position: absolute;
+  z-index: 10;
+  padding-top: 30px;
+  padding-left: 1450px;
+}
+
+
+
+
+
+
+
