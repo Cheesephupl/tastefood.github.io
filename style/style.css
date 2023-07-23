@@ -2,41 +2,41 @@
 
 
 @font-face {
-  font-family: '1';
+  font-family: 'SF-Pro-Rounded-Black';
   src: url('path/to/SF-Pro-Rounded-Black.woff2') format('woff2'),
        url('path/to/SF-Pro-Rounded-Black.woff') format('woff');
   /* Add other font properties like font-weight and font-style if needed */
 }
 
 @font-face {
-  font-family: '2';
+  font-family: 'SF-Pro-Rounded-Ultralight';
   src: url('path/to/SF-Pro-Rounded-Ultralight.woff2') format('woff2'),
        url('path/to/SF-Pro-Rounded-Ultralight.woff') format('woff');
   /* Add other font properties like font-weight and font-style if needed */
 }
 
 @font-face {
-  font-family: '3';
+  font-family: 'SF-Pro-Rounded-Thin';
   src: url('path/to/SF-Pro-Rounded-Thin.woff2') format('woff2'),
        url('path/to/SF-Pro-Rounded-Thin.woff') format('woff');
   /* Add other font properties like font-weight and font-style if needed */
 }
 
 @font-face {
-  font-family: '4';
+  font-family: 'SF-Pro-Rounded-Semibold';
   src: url('path/to/SF-Pro-Rounded-Semibold.woff2') format('woff2'),
        url('path/to/SF-Pro-Rounded-Semibold.woff') format('woff');
   /* Add other font properties like font-weight and font-style if needed */
 }
 @font-face {
-  font-family: '5';
+  font-family: 'SF-Pro-Rounded-Regular';
   src: url('path/to/SF-Pro-Rounded-Regular.woff2') format('woff2'),
        url('path/to/SF-Pro-Rounded-Regular.woff') format('woff');
   /* Add other font properties like font-weight and font-style if needed */
 }
 
 @font-face {
-  font-family: '6';
+  font-family: 'SF-Pro-Rounded-Medium';
   src: url('path/to/SF-Pro-Rounded-Medium.woff2') format('woff2'),
        url('path/to/SF-Pro-Rounded-Medium.woff') format('woff');
   /* Add other font properties like font-weight and font-style if needed */
@@ -44,7 +44,9 @@
 
 
 
-
+h1{
+  font-family: 'SF Pro Rounded Regular', sans-serif;
+}
 
 
 
@@ -73,6 +75,7 @@ header {
 
   background-color: #F8991F;
   min-width: 800px;
+  font-family: 'SF Pro Rounded Semibold', sans-serif;
 }
 
 
@@ -264,6 +267,7 @@ header {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  font-family: 'SF Pro Rounded Regular', sans-serif;
 }
 
 
@@ -312,7 +316,6 @@ header {
 .slider{
   top: 130px;
   position: relative;
-  width: 95%;
   height: 700px;
   overflow: hidden;
   margin: auto;
@@ -334,7 +337,7 @@ header {
   border: none;
   font-size: xxx-large;
   font-weight: bold;
-  left: 38.5%;
+  left: 37%;
   border-radius: 10px;
   background-size: 30px;
 }
@@ -348,6 +351,7 @@ header {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 200px;
+  font-family: 'SF Pro Rounded Regular', sans-serif;
 }
 
 .Thongtin .text-info .text-2 {
