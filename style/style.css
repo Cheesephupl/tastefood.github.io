@@ -368,6 +368,7 @@ header {
 
 .Thongtin-tuyendung .ban-tuyendung{
   padding-top: 100px;
+  margin-left: 150px;
 
   }
 .Thongtin-tuyendung {
@@ -422,7 +423,6 @@ header {
   text-align: center;
   justify-content: center;
   padding-bottom: 100px;
-  margin: 50px;
 }
 
 .ung-cu .table-ungcu{
@@ -430,34 +430,53 @@ header {
 }
 
 .ung-cu .table-ungcu .ten-ung-vien{
-
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.ung-cu .table-ungcu .ten-ung-vien {
-
+.ung-cu .table-ungcu .email-ung-vien{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.ung-cu .table-ungcu .email-ung-vien .Email{
-
-
+.ung-cu .table-ungcu .vitri-ung-cu{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.ung-cu .table-ungcu .sdt-ungvien .VTrNgTuyN{
 
-
-}
 .ung-cu .table-ungcu .upload-cv .upload{
   position: absolute;
   padding-top: 25px;
-  padding-left: 800px;
+  padding-left: 825px;
 
 }
 
-.ung-cu .Rectangle17{
-  padding-left: 400px;
+.ung-cu .table-ungcu .upload-cv .upload .button-upload-main .button-upload{
+  background-color: #F8991F;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  padding: 15px 32px;
+
 }
 
-.button-submit{
-  padding-top: 50px;
-  padding-left: 150px;
+.ung-cu .table-ungcu .upload-cv .upload .button-upload-main .button-upload:hover{
+  background-color: #fff;
+  color: #F8991F;
+
+}
+
+.ung-cu .table-ungcu .upload-cv .upload .UploadCvTIY{
+padding-bottom: 20px;
+padding-top: 10px;
+}
+
+
+
+.ung-cu .table-ungcu .upload-cv .Rectangle17{
+  position: relative;
+  margin-left: 21.5%;
 }
 
 input[type="text"] {
@@ -468,7 +487,27 @@ input[type="text"] {
   /* Thêm các thuộc tính CSS khác tùy ý */
 }
 
+.ung-cu .button-submit{
+  margin-top: 50PX;
+  background-color: #F8991F;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  padding: 15px 32px;
 
+}
+.ung-cu .button-submit-main{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.ung-cu .button-submit-main .button-submit:hover{
+  background-color: #fff;
+  color: #F8991F;
+
+}
 
 
 
