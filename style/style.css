@@ -426,7 +426,6 @@ header {
 }
 
 .ung-cu .table-ungcu{
-  padding-left: 15%;
   padding-top: 100px;
 }
 
@@ -435,26 +434,25 @@ header {
 }
 
 .ung-cu .table-ungcu .ten-ung-vien {
-  sie
 
 }
 .ung-cu .table-ungcu .email-ung-vien .Email{
-  position: absolute;
-  padding-top: 25px;
-  padding-left: 30px;
+
 
 }
 .ung-cu .table-ungcu .sdt-ungvien .VTrNgTuyN{
-  position: absolute;
-  padding-top: 25px;
-  padding-left: 30px;
+
 
 }
 .ung-cu .table-ungcu .upload-cv .upload{
   position: absolute;
   padding-top: 25px;
-  padding-left: 400px;
+  padding-left: 800px;
 
+}
+
+.ung-cu .Rectangle17{
+  padding-left: 400px;
 }
 
 .button-submit{
@@ -466,6 +464,7 @@ input[type="text"] {
   width: 1200px; /* Rộng 200px */
   height: 50px; /* Cao 50px */
   font-size: 16px; /* Kích thước font chữ */
+  font-family: 'SF Pro Rounded Regular';
   /* Thêm các thuộc tính CSS khác tùy ý */
 }
 
