@@ -366,14 +366,17 @@ header {
   font-family: 'SF Pro Rounded Semibold', sans-serif;
 }
 
+.Thongtin-tuyendung{}
+
+
 .Thongtin-tuyendung .ban-tuyendung{
   padding-top: 100px;
-  margin-left: 150px;
+  margin-left: 5%;
 
   }
 .Thongtin-tuyendung {
   margin: 50px;
-  padding-left: 50px;
+  justify-content: end;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -427,6 +430,7 @@ header {
 
 .ung-cu .table-ungcu{
   padding-top: 100px;
+
 }
 
 .ung-cu .table-ungcu .ten-ung-vien{
@@ -476,7 +480,7 @@ padding-top: 10px;
 
 .ung-cu .table-ungcu .upload-cv .Rectangle17{
   position: relative;
-  margin-left: 21.5%;
+  margin-left: 18.5%;
 }
 
 input[type="text"] {
