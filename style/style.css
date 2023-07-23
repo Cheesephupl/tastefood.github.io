@@ -418,6 +418,57 @@ header {
   padding-left: 1450px;
 }
 
+.ung-cu{
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 100px;
+  margin: 50px;
+}
+
+.ung-cu .table-ungcu{
+  padding-left: 15%;
+  padding-top: 100px;
+}
+
+.ung-cu .table-ungcu .ten-ung-vien{
+
+}
+
+.ung-cu .table-ungcu .ten-ung-vien {
+  sie
+
+}
+.ung-cu .table-ungcu .email-ung-vien .Email{
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 30px;
+
+}
+.ung-cu .table-ungcu .sdt-ungvien .VTrNgTuyN{
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 30px;
+
+}
+.ung-cu .table-ungcu .upload-cv .upload{
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 400px;
+
+}
+
+.button-submit{
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
+input[type="text"] {
+  width: 1200px; /* Rộng 200px */
+  height: 50px; /* Cao 50px */
+  font-size: 16px; /* Kích thước font chữ */
+  /* Thêm các thuộc tính CSS khác tùy ý */
+}
+
 
 
 
